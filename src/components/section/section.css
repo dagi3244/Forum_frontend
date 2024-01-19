@@ -1,0 +1,160 @@
+.main-section {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10%;
+  margin-top: 100px;
+}
+.sign-form {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 40px;
+  gap: 20px;
+  height: 500px;
+  overflow: hidden;
+}
+.sign-up {
+  height: auto;
+}
+.sign-form h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #2d385e;
+}
+.sign-form p {
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.sign-form p > a {
+  color: #fe8402;
+  text-decoration: none;
+}
+.sign-form form {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sign-form form input {
+  width: 100%;
+  height: 50px;
+  padding: 12px;
+  color: #333;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+.sign-form form input:focus {
+  border-bottom: 2px solid #fe8402;
+}
+.sign-form form .forgot {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.forgot > a {
+  color: #fe8402;
+  text-decoration: none;
+}
+.forgot > a:hover {
+  text-decoration: underline;
+}
+.sign-form form button {
+  width: 100%;
+  padding: 15px 0;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 500;
+  outline: none;
+  background-color: #516cf0;
+  color: #fff;
+  cursor: pointer;
+}
+.sign-form form button:hover {
+  background-color: #fe8402;
+}
+.about {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 40px;
+  /* margin-bottom: 25px; */
+  color: #fe8402;
+}
+
+.about h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #4b456f;
+}
+
+.about p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #656565;
+  line-height: 1.5;
+}
+.about .btn {
+  background-color: #fe8402;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+.about .btn > a {
+  text-decoration: none;
+  color: #fff;
+}
+.eye:hover {
+  color: #fe8402;
+  opacity: 1 !important;
+}
+.names {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+.agree p {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #6c757d;
+  margin-bottom: 10px;
+}
+.agree p a {
+  color: #fe8402;
+}
+.account > a {
+  color: #fe8402;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+.account > a:hover {
+  text-decoration: underline;
+}
+.login-error {
+  color: red;
+  margin-bottom: 20px;
+  text-align: center;
+}

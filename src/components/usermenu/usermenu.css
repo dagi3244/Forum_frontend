@@ -1,0 +1,52 @@
+.user-menu {
+  position: absolute;
+  top: 60px;
+  /* right: 0; */
+  /* width: 30%; */
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 18px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  gap: 15px;
+  z-index: 100;
+}
+
+.user-menu ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  gap: 10px;
+  list-style: none;
+}
+
+.user-menu ul li input[type="file"] {
+  display: none;
+}
+
+.user-menu label,
+.user-menu a {
+  color: #4b456f;
+  font-size: 1.1rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.user-menu label:hover,
+.user-menu a:hover {
+  color: #514789;
+  text-decoration: underline;
+}
+.user-menu-arrow {
+  position: absolute;
+  top: 34px;
+  font-size: 1.6rem;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}

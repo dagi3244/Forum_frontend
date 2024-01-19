@@ -1,0 +1,82 @@
+footer {
+  position: relative;
+  width: 100%;
+  background-color: #3b455a;
+  padding: 60px 0 40px 0;
+}
+footer > div {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  padding: 20px 10%;
+}
+footer .social-links {
+  margin-top: 20px;
+  display: flex;
+  align-items: start;
+  list-style: none;
+  gap: 20px;
+  font-size: 1rem;
+}
+
+footer .social-links a {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  padding: 10px;
+}
+footer .social-links a:hover {
+  background-color: #fff;
+  color: #3b455a;
+}
+footer .footer-links {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+  color: #fff;
+  list-style: none;
+  font-size: 1rem;
+}
+footer h3 {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+footer .footer-links > ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 15px;
+}
+footer .footer-links > ul > li > a {
+  color: rgba(213, 213, 213, 0.6);
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+footer .footer-links > ul > li > a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+footer .contact {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+  font-size: 1rem;
+}
+footer .contact > ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+footer .contact > ul > li {
+  color: rgba(213, 213, 213, 0.6);
+}

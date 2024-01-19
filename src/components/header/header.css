@@ -1,0 +1,115 @@
+header {
+  width: 100%;
+  height: 85px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+nav {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  gap: 20px;
+  margin-right: 20px;
+}
+.nav-links li > a {
+  text-decoration: none;
+  color: #62626f;
+}
+.nav-links li > a:hover {
+  color: #fe8402;
+}
+.nav-links .btn {
+  background-color: #516cf0;
+  width: 200px;
+  padding: 10px 0;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  font-style: normal;
+}
+.nav-links .btn:hover {
+  background-color: #fe8402;
+}
+.nav-links .btn > a {
+  color: #fff !important;
+  text-decoration: none;
+}
+.logo img {
+  max-width: 80%;
+}
+.menu {
+  display: none;
+  position: relative;
+  right: 20px;
+  font-size: 1.5rem;
+  color: #62626f;
+  cursor: pointer;
+}
+.menu .nav-links {
+  position: absolute;
+  top: 50px;
+  right: -120px;
+  width: 500px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  z-index: 999;
+}
+.notifications {
+  /* position: fixed;
+  top: 2.5%;
+  right: 13%; */
+  /* width: 100%; */
+  text-align: right;
+  /* display: none; */
+  justify-content: center;
+  align-items: center;
+  z-index: 99;
+}
+.user {
+  position: relative;
+  /*top: 2.5%;
+  right: 10%; */
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  cursor: pointer;
+  gap: 5px;
+}
+.user-profile {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: start;
+}
+.user-profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.user-name h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #4b456f;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
